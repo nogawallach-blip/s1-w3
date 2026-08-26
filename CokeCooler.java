@@ -17,6 +17,10 @@ public class CokeCooler {
         numCokes += f;
     }
 
+    public int cCokes(){
+        return numCokes;
+    }
+
     public void printState(){
         System.out.println("Number of Cokes: " + numCokes);
     }

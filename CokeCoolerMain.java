@@ -4,12 +4,9 @@ public class CokeCoolerMain{
         CokeCooler c1 = new CokeCooler();
 
         c1.remove(20);
-        c1.printState();
+        System.out.println(c1.cCokes());
         c1.fill(5);
-        c1.printState();
-
+        System.out.println(c1.cCokes());
     }
-
-
 
 }
