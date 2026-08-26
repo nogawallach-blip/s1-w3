@@ -20,4 +20,4 @@ public class CandyJar{
     public void printState(){
         System.out.println("Candy amount: " + amount);
     }
-    }
+}
